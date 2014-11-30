@@ -53,7 +53,7 @@ func generateNumbers()
 }
 
 // Extract a tempered pseudorandom number based on the index-th value,
-// calling generate_numbers() every 624 numbers
+// calling generateNumbers() every 624 numbers
 func extractNumber() -> Int
 {
     if index == 0
