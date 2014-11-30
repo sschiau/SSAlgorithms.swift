@@ -1,6 +1,9 @@
 #SSAlgorithms
 ####Language: Swift (Apple iOS & OSX)
-Swift **playground** implementation of diverse algorithms (1/200+ - more soon)
+Swift **playground** implementation of diverse algorithms (2/200+ - more soon)
+
+1. Bubble Sort
+2. Mersenne Twister
 
 ```SWIFT
 	[18, 2, 6, 1, 5, 6, 1, 0, 43, 16]
