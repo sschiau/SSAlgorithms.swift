@@ -2,7 +2,7 @@
 * Copyright 2014 Silviu Schiau.
 *
 * Author: Silviu Schiau <pr@silviu.co>
-* Version: 1.0.0
+* Version: 1.0.1
 * License Apache License Version 2.0 http://www.apache.org/licenses/LICENSE-2.0.txt
 *
 * This copyright notice
@@ -49,6 +49,23 @@ func bubbleSort(list: NSArray) -> NSArray
     return sortedList
 }
 
+// Quicksort
+// Complexity: O(n log n) - Worse: O(n²)
+func quickSort<T: Comparable>(var list: [T]) -> [T]
+{
+    // In the generic function above, the generic parameter T: Comparable indicates that any type argument substituted for the type parameter T must conform to the Comparable protocol.
+    if list.count <= 1
+    {
+        return list
+    }
+
+    // Remove and return the first index from the list
+    let k = list.removeAtIndex(0)
+    
+    return quickSort(list.filter { $0 <= k }) + [k] + quickSort(list.filter { $0 > k })
+}
+
 // TEST
-let list: NSArray = [18, 2, 6, 1, 5, 6, 1, 0, 43, 16]
+let list = [18, 2, 6, 1, 5, 6, 1, 0, 43, 16]
 bubbleSort(list);
+quickSort(list)
