@@ -1,6 +1,6 @@
 #SSAlgorithms
 ####Language: Swift (Apple iOS & OSX)
-Swift **playground** implementation of diverse algorithms (2/200+ - more soon)
+Swift **playground** implementation of diverse algorithms (3/200+ - more soon)
 
 1. [Bubble Sort](https://github.com/sschiau/SSAlgorithms-Swift/blob/master/SSAlgorithms-Swift.playground/section-1.swift)
 2. [Mersenne Twister](https://github.com/sschiau/SSAlgorithms-Swift/blob/master/SSAlgorithms-Swift-MersenneTwister.playground/section-1.swift)
