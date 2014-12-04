@@ -2,9 +2,9 @@
 ####Language: Swift (Apple iOS & OSX)
 Swift **playground** implementation of diverse algorithms (3/200+ - more soon)
 
-1. [Bubble Sort](https://github.com/sschiau/SSAlgorithms-Swift/blob/master/SSAlgorithms-Swift.playground/section-1.swift)
+1. [Bubble Sort](https://github.com/sschiau/SSAlgorithms-Swift/blob/master/SSAlgorithms-Swift.playground/section-1.swift#L23)
 2. [Mersenne Twister](https://github.com/sschiau/SSAlgorithms-Swift/blob/master/SSAlgorithms-Swift-MersenneTwister.playground/section-1.swift)
-3. [Quick Sort](https://github.com/sschiau/SSAlgorithms-Swift/blob/master/SSAlgorithms-Swift.playground/section-1.swift)
+3. [Quick Sort](https://github.com/sschiau/SSAlgorithms-Swift/blob/master/SSAlgorithms-Swift.playground/section-1.swift#L52)
 
 ```SWIFT
 	// Unsorted List
