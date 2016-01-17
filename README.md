@@ -13,7 +13,3 @@ Swift **playground** implementation of diverse algorithms (3/200+ - more soon)
 	// Sorted List 
 	[0, 1, 1, 2, 5, 6, 6, 16, 18, 43]
 ```
-
-#### License
-Apache License Version 2.0
-http://www.apache.org/licenses/LICENSE-2.0.txt
